@@ -53,7 +53,7 @@ gcc transposition.c -o transposition.exe
 
 2. Rulați programul specificând modul (`-e` pentru criptare sau `-d` pentru decriptare), fișierul de intrare, cheia și fișierul de ieșire:
 ```powershell
-./caesar.exe -e input.txt -k 3 -o output.txt
+./transposition.exe -e input.txt -k 3 -o output.txt
 ```
 - `-e`: Criptare
 - `-d`: Decriptare
