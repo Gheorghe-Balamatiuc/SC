@@ -72,5 +72,5 @@ Hello, World!
 ```
 Fișierul output.txt:
 ```
-Hoo!el,Wrdl_l
+Hl r!eoWl_l,od_
 ```
