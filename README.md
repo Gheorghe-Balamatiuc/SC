@@ -46,4 +46,31 @@ Cifrul de transpunere pe coloane implică rearanjarea caracterelor unui text în
 
 ### Rulare program
 
+1. Compilați programul folosind GCC:
+```powershell
+gcc transposition.c -o transposition.exe
+```
+
+2. Rulați programul specificând modul (`-e` pentru criptare sau `-d` pentru decriptare), fișierul de intrare, cheia și fișierul de ieșire:
+```powershell
+./caesar.exe -e input.txt -k 3 -o output.txt
+```
+- `-e`: Criptare
+- `-d`: Decriptare
+- `-k`: Cheia (număr întreg pozitiv)
+- `-o`: Fișierul de ieșire
+
 ### Exemplu
+
+Comandă:
+```powershell
+./transposition.exe -e input.txt -k 3 -o output.txt
+```
+Fișierul input.txt:
+```
+Hello, World!
+```
+Fișierul output.txt:
+```
+Hoo!el,Wrdl_l
+```
